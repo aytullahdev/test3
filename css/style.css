@@ -1,0 +1,702 @@
+@import url('../webbox/css/main.css');
+a{
+    text-decoration: none;
+    color: white;
+}
+body{
+    background-color: #F7F7F7;
+}
+.active1{
+    color: #FFB747;
+}
+/* top nav */
+
+/* main nav */
+
+.mainnav{
+    background-color: #F7F7F7;
+    color: black!important;
+}
+.mainnav > div > div > div> ul > li > a > span {
+    color: black!important;
+    display: inline;
+    font-weight: 600;
+}
+.btnmainnav{
+    background-color: black;
+    color: white!important;
+    padding: 5px 10px;
+}
+.btnmainnav:hover{
+    background-color: #2F2E2B!important;
+    color: white!important;
+   
+}
+.logo{
+    width: 350px!important;
+    height: 97px;
+}
+.mnav01{
+   
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.mnav01  > li{
+    margin-left: 20px;
+}
+.mnav01  > li > a >span{
+    float: right;
+     
+  }
+  .mnav01 >li > a> span:hover{
+    color: #FFB747!important;            
+}
+  /* mnav2 */
+  
+  .mnav02 div > ul{
+      list-style: none;
+      display: flex;
+      justify-content: space-around;
+
+  }
+  .mnav02>div>ul>li>a{
+    color: black!important;
+    font-weight: 800;
+  }
+  .mnav02>div>ul>li>a:hover{
+    color: #FFB747!important;
+    
+  }
+/* main nav end */
+/* from section start */
+.fromsec{
+    background-image: url(../img/carlight1.jpg);
+    height: 300px;
+    background-position: top;
+    background-size: cover;
+}
+.fromdiv{
+    height: 110px;
+    width: 907px;
+    margin: auto;
+    position: relative;
+    
+
+}
+.fromdiv > .inputbox{
+    border-top-left-radius: 5px;
+    height: 55px;
+    width: 100%;
+    position: relative;
+    background-color: #354D64;
+}
+.fromdiv > .inputbox > .inp1{
+    width: 450px;
+    height: 100%;
+    padding: 10px;
+    display: inline-block;
+    border: none;
+    font-size: 20px;
+    outline: none;
+}
+.fromdiv > .inputbox > .inp2{
+    width: 250px;
+    height: 100%;
+    padding: 10px;
+    display: inline-block;
+    border: none;
+    margin-left: 30px;
+    outline: none;
+    font-size: 20px;
+}
+.fromdiv > .inputbox > .lbox{
+    height: 100%;
+    position: absolute;
+    width: 35px;
+    padding-right: 10px;
+    display: inline-block;
+    margin-left: -4px;
+    padding-top: 6px;
+    padding-left: 6px;
+    cursor: pointer;
+    background-color: white;
+}
+.fromdiv > .inputbox >.sbtn{
+    border: none;
+    position:absolute;
+    height: 100%;
+    width: 68px;
+    background-color: #FFB747;
+    font-size: 26px;
+    font-weight: 600;
+}
+.fromdiv > .optionbox{
+    width: 685px;
+    height: 45px;
+
+    background-color: #354D64;
+}
+.fromdiv > .inputbox >.sbtn:hover{
+    color: white;
+}
+.optionbox > .btn-group > label{
+    float: left;
+    border: none!important;
+    outline: none!important;
+    color: white;
+}
+/* from section end */
+/* gunun card */
+.gununcard{
+    width: 330px;
+    height: 400px;
+    z-index: 10;
+    padding: 0;
+}
+.gununcard > img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.gununcard > .card-body {
+    position: absolute;
+    top: 35%;
+    padding-left: 10px;
+    text-align: left;
+    color: rgb(247,247,247);
+}
+.gununcard > .card-body > h2{
+    font-size: 26px;
+    text-align: left;
+}
+.gununcard > .card-body > p{
+    font: 10px;
+    text-align: left;
+    color: #8E8F8F;
+}
+.gununcard > .card-body > a{
+     padding: 0;
+     font-size: 15px;
+     color: #FFB747;
+    
+     text-align: left;
+     float: left;
+
+}
+.gununcard > .card-body > a:hover{
+    text-decoration: underline;
+}
+
+
+
+/* gunun card end */
+.card2 > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.card2 > h3{
+    font-size: 14px;
+    text-align: center!important;
+    font-weight: 700!important;
+}
+.card2 > p{
+    text-align: center;
+    font-size: 13px;
+    
+}
+.sec06{
+   
+    background: transparent linear-gradient(180deg, #5B00C2 0%, #4D12C5 49%, #0565B9 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.sec06rcard > h4{
+    
+    font-size: 35px;
+}
+.sec06rcard > h3{
+    
+    font-size: 38px;
+}
+.sec06rcard > p{
+    
+    font-size: 26px;
+}
+/* hide for mobile  */
+.mhide{
+    display: block!important;
+}
+/* revers  */
+ .mrhide{
+        display: none!important;
+    }
+    /* for 320px devicce */
+    .m32hide{
+        display: block!important;
+    }
+/* footer */
+footer{
+    background-color: #2F2E2B;
+    
+}
+/* footer adress */
+.fcard>h5{
+    font-size: 17px;
+}
+.fcard{
+    font-size: 15px;
+
+}
+.fcard > ul > li>a:hover{
+    color: #FFB747;
+}
+address > ul > li{
+    margin-top: 20px;
+    cursor: pointer;
+}
+address > ul > li:hover{
+    color: #FFB747;
+}
+/* trend card style */
+.trendcard{
+    height: 270px;
+    width: 300px;
+    position: relative!important;
+    margin-bottom: 10px;
+    z-index: 1;
+    color: #FFFFFF;
+    
+    
+}
+.trendcard > img{
+    z-index:2;
+    height: 100%;
+    width: 100%;
+}
+.trendcard > .card-body{
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    bottom:0px;
+    left: 0;
+   
+}
+.trendcard > .card-body > h5,h3{
+    font-size: 20px!important;
+    
+   
+}
+.trendcard > .card-body > a{
+    background-color: #FFB747;
+    border: none;
+    padding:5px 40px;
+    cursor: pointer;
+}
+.trendcard > .card-body > a:hover{
+    background-color:  #354D64;
+   
+}
+/* trendcard2 start */
+ .trendcard2{
+     height: 280px;
+     width: 300px;
+     position: relative!important;
+     margin-bottom: 10px;
+     z-index: 1;
+     padding: 0;
+     color: #FFFFFF;
+ }
+ .trendcard2 > img{
+    z-index:2;
+    height: 100%;
+    width: 100%;
+ }
+ .trendcard2 > .card-body{
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    bottom:0px;
+    left: 0;
+   
+}
+.trendcard2 > .card-body > h5,h3{
+    font-size: 20px!important;
+    
+   
+}
+.trendcard2 > .card-body > a{
+    background-color: #FFB747;
+    border: none;
+    padding:5px 40px;
+    cursor: pointer;
+}
+.trendcard2 > .card-body > a:hover{
+    background-color:  #354D64;
+   
+}
+/* row item */
+
+/* trendcard2 end */
+/* owl carousel */
+.owl-theme .owl-dots{
+    display: none!important;
+}
+.owl-theme .owl-nav{
+    display: block!important;
+}
+.owl-theme .owl-nav{
+    
+    position: absolute;
+    top: -50px;
+    right: 0px;
+    width: 100px;
+}
+.owl-theme .owl-nav .owl-prev,.owl-next{
+     color: #354D64!important;
+     width: 25px;
+     height: 25px;
+     border: 1px solid #354D64!important;
+     
+     
+}
+.owl-theme .owl-nav .owl-prev:hover{
+    color: white!important;
+    background-color: #354D64!important;
+}
+
+.owl-theme .owl-nav .owl-next:hover{
+    color: white!important;
+    background-color: #354D64!important;
+}
+/* imgbox with review slider */
+.reviewcard{
+    width: 800px;
+    height: 54px;
+    
+}
+.reviewcard > div > p{
+    font-size: 17px;
+}
+.imgbox{
+    height: 66px;
+    width: 66px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.imgbox > img{
+    height: 66px;
+    width: 66px;
+    object-fit: cover;
+}
+/* resonsive for tablet */
+@media only screen and (max-width: 768px) {
+    .mhide{
+        display: none!important;
+    }
+}
+/* responsive for iphone/6/6s.... */
+@media only screen and (max-width: 375px) {
+    .card2{
+        width: 195px!important;
+        font-size: 12px;
+        
+    }
+    .mhide{
+        display: none!important;
+    }
+    .mrhide{
+        display: block!important;
+    }
+    .fcard{
+        font-size: 13px;
+        width: 195px!important;
+    }
+    .trendcard{
+        width: 172px;
+        height: 155px;
+    }
+    .trendcard > .card-body > h5,h3{
+        font-size: 15px!important;
+        
+       
+    }
+    .owl-theme .owl-nav{
+    
+        position: absolute;
+        top: -50px;
+        right: -20px;
+        width: 100px;
+    }
+    .logo{
+        width: 180px!important;
+        height: 97px;
+    }
+    .mnav01  {
+       padding-top: 20px;
+       
+        
+    }
+    
+    .mnav02{
+        display:block!important;
+        position: absolute;
+        background-color: #F7F7F7;
+        border-right: 2px solid #354D64;
+        height: 100vh;
+        width: 50%;
+        box-shadow: 0 0 20px black;
+        padding-top: 50px;
+        top: 0;
+        left: 0;
+        z-index: 99;
+        transition: transform 0.5s;
+        transform: translateX(-120%);
+    }
+    .mnav02 > div > ul{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .mnav02 > div > ul > li{
+        margin-top: 20px;
+        
+    }
+    .slide{
+       
+        transform: translateX(0%);
+        
+    }
+    .gununcard{
+        width: 150px;
+        height: 250px;
+        z-index: 10;
+        padding: 0;
+    }
+    .gununcard > .card-body {
+        top: 0;
+    }
+    .gununcard > .card-body > h2{
+        font-size: 14px;
+    }
+    .gununcard > .card-body > p{
+        font-size: 11px;
+    }
+    .gununcard > .card-body > a{
+        font-size: 11px;
+    }
+    .reviewcard{
+        width: 100%;
+       overflow: hidden!important;
+        height: 100px;
+        width: 460px;
+        padding: 0!important;
+        
+    }
+    .reviewcard > div > h3 {
+        font: 12px;
+    }
+    .reviewcard > div > p{
+        font-size: 12px;
+    }
+    .trendcard2{
+        width: 177px;
+        height: 155px;
+    }
+    .rowitem{
+        display: flex;
+        width: 100%;
+        justify-content: space-around!important;
+    }
+    /* from section start */
+
+.fromdiv{
+    height: 110px;
+    width: 100%;
+    margin: auto;
+    margin-left: -15px;
+    position: relative;
+    
+
+}
+.fromdiv > .inputbox{
+    border-top-left-radius: 5px;
+    height: 55px;
+    width: 100%;
+    position: relative;
+    background-color: #354D64;
+}
+.fromdiv > .inputbox > .inp1{
+    width: 190px;
+    height: 100%;
+    padding: 10px;
+    display: inline-block;
+    border: none;
+    font-size: 13px;
+    outline: none;
+}
+.fromdiv > .inputbox > .inp2{
+    display: none;
+}
+.fromdiv > .inputbox > .lbox{
+    display: none;
+    height: 100%;
+    position: absolute;
+    width: 35px;
+    padding-right: 10px;
+    display: inline-block;
+    margin-left: -4px;
+    padding-top: 6px;
+    padding-left: 6px;
+    cursor: pointer;
+    background-color: white;
+}
+.fromdiv > .inputbox >.sbtn{
+    border: none;
+    position:absolute;
+    height: 100%;
+    width: 62px;
+    background-color: #FFB747;
+    font-size: 26px;
+    font-weight: 600;
+}
+.fromdiv > .optionbox{
+    width: 320px;
+    height: 70px;
+
+    background-color: #354D64;
+}
+.fromdiv > .inputbox >.sbtn:hover{
+    color: white;
+}
+
+.optionbox > .btn-group > label{
+    float: left;
+    border: none!important;
+    outline: none!important;
+    color: white;
+    font-size: 10px;
+}
+/* from section end */
+
+}
+@media only screen and (max-width: 320px) {
+    .card2{
+        width: 130px!important;
+        margin: auto;
+        font-size: 10px;
+        
+    }
+    .fcard{
+        font-size: 12px;
+        width: 145px!important;
+    }
+    .trendcard{
+        width: 150px;
+        height: 200px;
+    }
+    address > ul > li{
+        margin-top: 10px;
+        font-size: 9px;
+    }
+    .owl-theme .owl-nav{
+    
+        position: absolute;
+        top: -50px;
+        right: -25px;
+        width: 100px;
+    }
+    
+    .mnav01 {
+        position: relative;
+        display: flex;
+        width: 600px;
+        justify-content: end;
+    }
+    .m32hide{
+        display: none!important;
+    }
+    .trendcard > .card-body >h3,h4{
+        font-size: 12px!important;
+
+    }
+
+    .trendcard > .card-body > a{
+        background-color: #FFB747;
+        border: none;
+        padding:5px 20px!important;
+        cursor: pointer;
+    }
+      /* from section start */
+
+.fromdiv{
+    height: 110px;
+    width: 300px;
+    margin: auto;
+    margin-left: -15px;
+    position: relative;
+    
+
+}
+.fromdiv > .inputbox{
+    border-top-left-radius: 5px;
+    height: 55px;
+    width: 100%;
+    position: relative;
+    background-color: #354D64;
+}
+.fromdiv > .inputbox > .inp1{
+    width: 210px;
+    height: 100%;
+    padding: 10px;
+    display: inline-block;
+    border: none;
+    font-size: 13px;
+    outline: none;
+}
+.fromdiv > .inputbox > .inp2{
+    display: none;
+}
+.fromdiv > .inputbox > .lbox{
+    display: none;
+    height: 100%;
+    position: absolute;
+    width: 35px;
+    padding-right: 10px;
+    display: inline-block;
+    margin-left: -4px;
+    padding-top: 6px;
+    padding-left: 6px;
+    cursor: pointer;
+    background-color: white;
+}
+.fromdiv > .inputbox >.sbtn{
+    border: none;
+    position:absolute;
+    height: 100%;
+    width: 62px;
+    background-color: #FFB747;
+    font-size: 26px;
+    font-weight: 600;
+}
+.fromdiv > .optionbox{
+    width: 310px;
+    height: 70px;
+    margin-top: 30px;
+    background-color: #354D64;
+}
+.fromdiv > .inputbox >.sbtn:hover{
+    color: white;
+}
+
+.optionbox > .btn-group > label{
+    float: left;
+    border: none!important;
+    outline: none!important;
+    color: white;
+    font-size: 10px;
+}
+/* from section end */
+}
